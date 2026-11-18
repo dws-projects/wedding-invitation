@@ -891,13 +891,6 @@ export default function App() {
           </div>
         </footer>
       </div>
-      <img
-        src={`${import.meta.env.BASE_URL}discover-websoft-watermark.png`}
-        alt=""
-        aria-hidden="true"
-        draggable="false"
-        className="pointer-events-none fixed inset-0 z-[45] h-full w-full object-cover opacity-[0.09] mix-blend-multiply"
-      />
     </div>
   );
 }
