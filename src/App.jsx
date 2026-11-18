@@ -886,8 +886,8 @@ export default function App() {
               </button>
             ))}
           </nav>
-          <div className="mx-auto mt-8 max-w-3xl border-t border-[#E7D3A3]/20 pt-5 font-sans-clean text-[10px] tracking-[.16em] text-[#E7D3A3]/70">
-            <p>&copy; 2026 · INVITATION DESIGNED BY DISCOVER WEBSOFT</p>
+          <div className="mx-auto mt-8 max-w-3xl border-t border-[#E7D3A3]/20 pt-5 font-sans-clean text-center text-[8px] !tracking-[.04em] text-[#E7D3A3]/70 sm:text-[10px] sm:!tracking-[.16em]">
+            <p className="whitespace-nowrap">&copy; 2026 · INVITATION DESIGNED BY <a href="https://discoverwebsoft.com/" target="_blank" rel="noopener noreferrer" className="no-underline hover:text-[#F8E9D5]">DISCOVER WEBSOFT</a></p>
           </div>
         </footer>
       </div>
